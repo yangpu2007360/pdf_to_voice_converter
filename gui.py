@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import filedialog
-import textract
+
 from boto3 import Session
 from botocore.exceptions import BotoCoreError, ClientError
 from contextlib import closing
